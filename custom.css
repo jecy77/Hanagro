@@ -1,0 +1,278 @@
+@import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
+
+
+.home_title{
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:32px !important;
+    color: white;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px;
+
+}
+
+.home_sub{
+    font-size: 35px; font-weight: 600;
+}
+
+.home_title_black{
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:32px !important;
+    color: black;
+    line-height: 1.5 !important;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px;
+
+}
+
+.eco_text{
+    font-size: 26px;
+    color:#5d9de2;
+}
+
+.main_main_title{
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:24px;
+    font-weight: 600 !important;
+    line-height: 1.2;
+    color: black !important;
+}
+.main_sub_title{
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:20px;
+    font-weight: 700 !important;
+    margin-top: 0;
+
+}
+
+.product_sub_title{
+    font-family: 'Noto Sans KR', sans-serif !important;
+    font-size:17px;
+    font-weight: 500 !important;
+    margin-top: 0;
+    text-align: left;
+
+}
+
+.product_div{
+    display: grid;
+    place-items: center;
+}
+
+
+.product_card{
+    box-shadow: 2px 4px 12px #00000014!important;
+    background: #ffffff!important;
+    border-radius: 15px!important;
+}
+
+/*.product_card::after {*/
+/*    content: ""; !* 필수: 이렇게 해야 의사 요소가 화면에 나타남 *!*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    !*width: 100%;*!*/
+/*    !*height: 100%;*!*/
+/*    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));*/
+/*    opacity: 0; !* 초기에는 보이지 않도록 설정 *!*/
+/*    transition: opacity 0.5s ease; !* 부드러운 효과를 위한 전환 설정 *!*/
+/*    !*border-radius: 20px;*!*/
+/*}*/
+
+/*.product_card:hover::after {*/
+/*    opacity: 1; !* 마우스를 올리면 보이도록 설정 *!*/
+/*}*/
+
+/*!*.product_image:hover{*!*/
+/*!*    background: linear-gradient(to top, rgba(0, 0, 0, .9), rgba(0, 0, 0, .6));;*!*/
+/*!*}*!*/
+
+
+
+.product_image{
+    width: 70%;
+
+}
+
+.main_menu{
+    background-color: rgba(255,255,255, .75)!important;
+    color: black!important;
+}
+
+.middle_text{
+    font-size:17px!important;
+    line-height: 1.7;
+}
+
+.product_mini_text{
+    font-size:13px!important;
+    line-height: 1.2;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.mini_text{
+    font-size:16px!important;
+    color:white;
+    line-height: 1.6;
+    margin-top: 24px;
+}
+.foot{
+    display: flex;
+    align-content: flex-start;
+    flex-direction: column;
+}
+
+.foot_row label{
+    min-width: 120px;
+}
+
+.foot_column{
+    gap: 20px;
+    display: flex;
+}
+
+.foot_content{
+    margin-left: 60px;
+}
+
+.company_img{
+    width: 95% !important;
+    max-width: 95% !important;
+    border-radius: 15px;
+}
+
+.company_div{
+    width: 95% !important;
+    max-width: 95% !important;
+    display: flex;
+    justify-content: center;
+}
+
+.company_name{
+    font-size: 40px !important;
+    font-weight: bold;
+
+}
+
+
+
+
+.product_name{
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.esg{
+    margin-top:140px;
+    padding-bottom:0;
+}
+
+.text_logo1{
+    color: #509550;
+}
+/*!*skyblue #5d9de2*!*/
+/*.spot-box-icon:after {*/
+/*    background: #9abf47 !important;*/
+/*}*/
+
+
+.dropdown_alpha{
+    background-color: rgba(255,255,255, .75)!important;
+    color:black  !important;
+    display: flex;      /* 가로 정렬을 위한 flex 설정 */
+    flex-direction: column !important;
+}
+
+.dropdown_all{
+    background-color: rgba(255,255,255, .75)!important;
+}
+
+.circle_1:before{
+    border: 2px solid #5d9ee2 !important;
+}
+
+.circle_3:before{
+    background-color: rgba(1,1,1,0.75);
+}
+.mobile_menu_button:before, .mobile_menu_button:after, .mobile_menu_button{
+    background-color: black!important;
+}
+
+.mobile-nav.active .mobile_menu_button{
+    background-color: transparent!important;
+}
+
+@media(max-width: 1040px){
+    .menu_media{
+        background-color: rgba(255,255,255,0.5) !important;
+    }
+}
+
+
+@media(max-width:600px){
+    .main_main_title{
+        font-size: 24px;
+    }
+
+    .home_title{
+        font-family: 'Noto Sans KR', sans-serif !important;
+        font-size:20px !important;
+        color: white;
+        line-height: 1.5 !important;
+        font-weight: 500 !important;
+        letter-spacing: 1.5px;
+    }
+
+    .company_img{
+        width: 100% ;
+        max-width: 100% !important;
+        border-radius: 15px !important;
+    }
+
+    .home_sub{
+        font-size: 25px; font-weight: 600;
+    }
+
+    .mini_text{
+        font-size:14px!important;
+        color:white;
+        line-height: 1.6;
+        margin-top: 24px;
+    }
+
+    .product_container{
+        margin-top:-50px !important;
+    }
+
+    .home_title_black{
+        font-size:20px !important;
+
+    }
+
+    .main_main_title{
+        font-size: 20px;
+    }
+
+    .main_sub_title{
+        font-size: 15px !important;
+    }
+
+    .foot_column{
+        font-size: 13px;
+    }
+
+    .foot{
+        font-size: 13px;
+    }
+
+    .foot_content{
+        margin-left: 10px;
+    }
+
+    .eco_text{
+        font-size: 22px;
+    }
+}
